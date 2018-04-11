@@ -30,8 +30,6 @@ public class CamelModifyTransformRouteTest extends CamelTestSupport {
         MockEndpoint mock = getMockEndpoint("mock:output");
         mock.expectedBodiesReceived(expected);
 
-
-
         template.sendBody("direct:transformInput","123,dilip,12JAN2017" );
 
         assertMockEndpointsSatisfied();

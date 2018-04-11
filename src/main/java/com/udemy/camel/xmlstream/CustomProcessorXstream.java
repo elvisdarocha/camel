@@ -1,0 +1,22 @@
+package com.udemy.camel.xmlstream;
+
+import org.apache.camel.Exchange;
+
+import java.util.StringTokenizer;
+
+public class CustomProcessorXstream implements org.apache.camel.Processor {
+    @Override
+    public void process(Exchange exchange) throws Exception {
+        String newBoby = exchange.getIn().getBody(String.class);
+        StringTokenizer tokenizer = new StringTokenizer(newBoby, ",");
+
+        Employee employee = new Employee();
+        while (tokenizer.hasMoreElements()){
+            employee.setId((String)tokenizer.nextElement());
+            employee.setName((String)tokenizer.nextElement());
+            employee.setJoinDate((String)tokenizer.nextElement());
+        }
+
+        exchange.getIn().setBody(employee);
+    }
+}
