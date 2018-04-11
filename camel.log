@@ -1540,3 +1540,811 @@ org.apache.camel.component.bean.AmbiguousMethodCallException: Ambiguous method i
 2018-04-11 19:16:49,387 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
 2018-04-11 19:16:49,395 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.272 seconds
 2018-04-11 19:16:49,395 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.012 seconds
+2018-04-11 19:34:49,428 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2018-04-11 19:34:49,431 | INFO | CamelTestSupport.java 228 | Testing: unMarshalXStreamTeste(com.udemy.camel.xmlstream.UnMarshalUsingXStreamTest)
+2018-04-11 19:34:49,432 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2018-04-11 19:34:49,844 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2018-04-11 19:34:49,846 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2018-04-11 19:34:49,881 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2018-04-11 19:34:49,942 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 19:34:49,953 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://xmlInput
+2018-04-11 19:34:49,954 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2018-04-11 19:34:49,957 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.110 seconds
+2018-04-11 19:34:50,108 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, BodyType: com.udemy.camel.xmlstream.Employee, Body: Employee{id='124', name='Daniel', joinDate='12JAN2017'}]
+2018-04-11 19:34:50,109 | INFO | MockEndpoint.java 385 | Asserting: mock://output is satisfied
+2018-04-11 19:34:50,109 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2018-04-11 19:34:50,109 | INFO | CamelTestSupport.java 374 | Testing done: unMarshalXStreamTeste(com.udemy.camel.xmlstream.UnMarshalUsingXStreamTest)
+2018-04-11 19:34:50,110 | INFO | CamelTestSupport.java 375 | Took: 0.151 seconds (151 millis)
+2018-04-11 19:34:50,110 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2018-04-11 19:34:50,115 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2018-04-11 19:34:50,115 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-04-11 19:34:50,119 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://xmlInput
+2018-04-11 19:34:50,119 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-04-11 19:34:50,129 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.284 seconds
+2018-04-11 19:34:50,129 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.013 seconds
+2018-04-11 19:35:28,946 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2018-04-11 19:35:28,948 | INFO | CamelTestSupport.java 228 | Testing: unMarshalXStreamTeste(com.udemy.camel.xmlstream.UnMarshalUsingXStreamTest)
+2018-04-11 19:35:28,948 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2018-04-11 19:35:29,314 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2018-04-11 19:35:29,315 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2018-04-11 19:35:29,363 | INFO | DefaultTypeConverter.java 56 | Loaded 189 type converters
+2018-04-11 19:35:29,429 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 19:35:29,439 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://xmlInput
+2018-04-11 19:35:29,439 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2018-04-11 19:35:29,441 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.125 seconds
+2018-04-11 19:35:29,583 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, BodyType: com.udemy.camel.xmlstream.Employee, Body: Employee{id='124', name='Daniel', joinDate='12Jan2017'}]
+2018-04-11 19:35:29,584 | INFO | MockEndpoint.java 385 | Asserting: mock://output is satisfied
+2018-04-11 19:35:29,585 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2018-04-11 19:35:29,585 | INFO | CamelTestSupport.java 374 | Testing done: unMarshalXStreamTeste(com.udemy.camel.xmlstream.UnMarshalUsingXStreamTest)
+2018-04-11 19:35:29,585 | INFO | CamelTestSupport.java 375 | Took: 0.143 seconds (143 millis)
+2018-04-11 19:35:29,585 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2018-04-11 19:35:29,590 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2018-04-11 19:35:29,591 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-04-11 19:35:29,594 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://xmlInput
+2018-04-11 19:35:29,594 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-04-11 19:35:29,603 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.289 seconds
+2018-04-11 19:35:29,603 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.013 seconds
+2018-04-11 19:55:56,021 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2018-04-11 19:55:56,024 | INFO | CamelTestSupport.java 228 | Testing: marshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 19:55:56,024 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2018-04-11 19:55:56,469 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2018-04-11 19:55:56,470 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2018-04-11 19:55:56,517 | INFO | DefaultTypeConverter.java 56 | Loaded 190 type converters
+2018-04-11 19:55:56,603 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 19:55:56,619 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://marshalEmployeeJson
+2018-04-11 19:55:56,619 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2018-04-11 19:55:56,621 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.150 seconds
+2018-04-11 19:55:56,632 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: <?xml version='1.0' encoding='UTF-8'?><employee><id>123</id><name>dilip</name><joinDate>12JAN2017</joinDate></employee>]
+2018-04-11 19:55:56,681 | INFO | XMLSerializer.java 736 | Using default type string
+2018-04-11 19:55:56,709 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: byte[], Body: {"id":"123","name":"dilip","joinDate":"12JAN2017"}]
+2018-04-11 19:55:56,711 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2018-04-11 19:55:56,711 | INFO | CamelTestSupport.java 374 | Testing done: marshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 19:55:56,711 | INFO | CamelTestSupport.java 375 | Took: 0.089 seconds (89 millis)
+2018-04-11 19:55:56,712 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2018-04-11 19:55:56,716 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2018-04-11 19:55:56,716 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-04-11 19:55:56,719 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://marshalEmployeeJson
+2018-04-11 19:55:56,719 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-04-11 19:55:56,730 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.261 seconds
+2018-04-11 19:55:56,730 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.014 seconds
+2018-04-11 19:57:39,844 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2018-04-11 19:57:39,846 | INFO | CamelTestSupport.java 228 | Testing: marshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 19:57:39,846 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2018-04-11 19:57:40,285 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2018-04-11 19:57:40,286 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2018-04-11 19:57:40,331 | INFO | DefaultTypeConverter.java 56 | Loaded 190 type converters
+2018-04-11 19:57:40,409 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 19:57:40,428 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://marshalEmployeeJson
+2018-04-11 19:57:40,428 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2018-04-11 19:57:40,431 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.143 seconds
+2018-04-11 19:57:40,441 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: <?xml version='1.0' encoding='UTF-8'?><employee><id>123</id><name>dilip</name><joinDate>12JAN2017</joinDate></employee>]
+2018-04-11 19:57:40,514 | INFO | XMLSerializer.java 736 | Using default type string
+2018-04-11 19:57:40,552 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: byte[], Body: {"id":"123","name":"dilip","joinDate":"12JAN2017"}]
+2018-04-11 19:57:40,553 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2018-04-11 19:57:40,553 | INFO | CamelTestSupport.java 374 | Testing done: marshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 19:57:40,554 | INFO | CamelTestSupport.java 375 | Took: 0.121 seconds (121 millis)
+2018-04-11 19:57:40,555 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2018-04-11 19:57:40,559 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2018-04-11 19:57:40,559 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-04-11 19:57:40,563 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://marshalEmployeeJson
+2018-04-11 19:57:40,563 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-04-11 19:57:40,573 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.287 seconds
+2018-04-11 19:57:40,573 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.013 seconds
+2018-04-11 19:57:55,673 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2018-04-11 19:57:55,675 | INFO | CamelTestSupport.java 228 | Testing: marshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 19:57:55,675 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2018-04-11 19:57:56,062 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2018-04-11 19:57:56,063 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2018-04-11 19:57:56,103 | INFO | DefaultTypeConverter.java 56 | Loaded 190 type converters
+2018-04-11 19:57:56,189 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 19:57:56,215 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://marshalEmployeeJson
+2018-04-11 19:57:56,216 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2018-04-11 19:57:56,219 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.154 seconds
+2018-04-11 19:57:56,233 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: <?xml version='1.0' encoding='UTF-8'?><employee><id>123</id><name>dilip</name><joinDate>12JAN2017</joinDate></employee>]
+2018-04-11 19:57:56,307 | INFO | XMLSerializer.java 736 | Using default type string
+2018-04-11 19:57:56,338 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: byte[], Body: {"id":"123","name":"dilip","joinDate":"12JAN2017"}]
+2018-04-11 19:57:56,338 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2018-04-11 19:57:56,338 | INFO | CamelTestSupport.java 374 | Testing done: marshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 19:57:56,338 | INFO | CamelTestSupport.java 375 | Took: 0.118 seconds (118 millis)
+2018-04-11 19:57:56,339 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2018-04-11 19:57:56,343 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2018-04-11 19:57:56,343 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-04-11 19:57:56,346 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://marshalEmployeeJson
+2018-04-11 19:57:56,346 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-04-11 19:57:56,356 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.294 seconds
+2018-04-11 19:57:56,356 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.014 seconds
+2018-04-11 20:01:01,280 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2018-04-11 20:01:01,283 | INFO | CamelTestSupport.java 228 | Testing: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:01:01,283 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2018-04-11 20:01:01,822 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2018-04-11 20:01:01,823 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2018-04-11 20:01:01,864 | INFO | DefaultTypeConverter.java 56 | Loaded 190 type converters
+2018-04-11 20:01:01,957 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:01:01,987 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://marshalEmployeeJson
+2018-04-11 20:01:01,988 | INFO | DefaultCamelContext.java 3693 | Route: route2 started and consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:01:01,989 | INFO | DefaultCamelContext.java 2947 | Total 2 routes, of which 2 are started.
+2018-04-11 20:01:01,992 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.167 seconds
+2018-04-11 20:01:02,003 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: {"id":"123","name":"dilip","joinDate":"12JAN2017"}]
+2018-04-11 20:01:02,079 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: <?xml version="1.0" encoding="UTF-8"?><o><id>123</id><joinDate>12JAN2017</joinDate><name>dilip</name></o>]
+2018-04-11 20:01:02,079 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2018-04-11 20:01:02,079 | INFO | CamelTestSupport.java 374 | Testing done: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:01:02,080 | INFO | CamelTestSupport.java 375 | Took: 0.086 seconds (86 millis)
+2018-04-11 20:01:02,080 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2018-04-11 20:01:02,084 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2018-04-11 20:01:02,084 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 2 routes (timeout 10 seconds)
+2018-04-11 20:01:02,093 | INFO | DefaultShutdownStrategy.java 669 | Route: route2 shutdown complete, was consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:01:02,093 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://marshalEmployeeJson
+2018-04-11 20:01:02,093 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 2 routes completed in 0 seconds
+2018-04-11 20:01:02,102 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.280 seconds
+2018-04-11 20:01:02,103 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.018 seconds
+2018-04-11 20:02:28,884 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2018-04-11 20:02:28,886 | INFO | CamelTestSupport.java 228 | Testing: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:02:28,886 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2018-04-11 20:02:29,305 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2018-04-11 20:02:29,306 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2018-04-11 20:02:29,358 | INFO | DefaultTypeConverter.java 56 | Loaded 190 type converters
+2018-04-11 20:02:29,444 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:02:29,466 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://marshalEmployeeJson
+2018-04-11 20:02:29,467 | INFO | DefaultCamelContext.java 3693 | Route: route2 started and consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:02:29,468 | INFO | DefaultCamelContext.java 2947 | Total 2 routes, of which 2 are started.
+2018-04-11 20:02:29,471 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.164 seconds
+2018-04-11 20:02:29,484 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: {"id":"123","name":"dilip","joinDate":"12JAN2017"}]
+2018-04-11 20:02:29,549 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: <?xml version="1.0" encoding="UTF-8"?><o><id>123</id><joinDate>12JAN2017</joinDate><name>dilip</name></o>]
+2018-04-11 20:02:29,550 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2018-04-11 20:02:29,550 | INFO | CamelTestSupport.java 374 | Testing done: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:02:29,551 | INFO | CamelTestSupport.java 375 | Took: 0.078 seconds (78 millis)
+2018-04-11 20:02:29,552 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2018-04-11 20:02:29,557 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2018-04-11 20:02:29,557 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 2 routes (timeout 10 seconds)
+2018-04-11 20:02:29,561 | INFO | DefaultShutdownStrategy.java 669 | Route: route2 shutdown complete, was consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:02:29,562 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://marshalEmployeeJson
+2018-04-11 20:02:29,562 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 2 routes completed in 0 seconds
+2018-04-11 20:02:29,571 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.267 seconds
+2018-04-11 20:02:29,571 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.014 seconds
+2018-04-11 20:06:15,930 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2018-04-11 20:06:15,933 | INFO | CamelTestSupport.java 228 | Testing: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:06:15,934 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2018-04-11 20:06:16,425 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2018-04-11 20:06:16,426 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2018-04-11 20:06:16,467 | INFO | DefaultTypeConverter.java 56 | Loaded 190 type converters
+2018-04-11 20:06:16,535 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:06:16,554 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://marshalEmployeeJson
+2018-04-11 20:06:16,555 | INFO | DefaultCamelContext.java 3693 | Route: route2 started and consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:06:16,555 | INFO | DefaultCamelContext.java 2947 | Total 2 routes, of which 2 are started.
+2018-04-11 20:06:16,557 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.130 seconds
+2018-04-11 20:06:16,567 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: {"id":"123","name":"dilip","joinDate":"12JAN2017"}]
+2018-04-11 20:06:16,607 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: <?xml version="1.0" encoding="UTF-8"?><employee><id>123</id><joinDate>12JAN2017</joinDate><name>dilip</name></employee>]
+2018-04-11 20:06:16,608 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2018-04-11 20:06:16,608 | INFO | CamelTestSupport.java 374 | Testing done: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:06:16,608 | INFO | CamelTestSupport.java 375 | Took: 0.050 seconds (50 millis)
+2018-04-11 20:06:16,609 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2018-04-11 20:06:16,612 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2018-04-11 20:06:16,612 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 2 routes (timeout 10 seconds)
+2018-04-11 20:06:16,616 | INFO | DefaultShutdownStrategy.java 669 | Route: route2 shutdown complete, was consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:06:16,616 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://marshalEmployeeJson
+2018-04-11 20:06:16,616 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 2 routes completed in 0 seconds
+2018-04-11 20:06:16,625 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.200 seconds
+2018-04-11 20:06:16,626 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.013 seconds
+2018-04-11 20:08:52,011 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2018-04-11 20:08:52,014 | INFO | CamelTestSupport.java 228 | Testing: marshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:08:52,014 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2018-04-11 20:08:52,441 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2018-04-11 20:08:52,442 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2018-04-11 20:08:52,479 | INFO | DefaultTypeConverter.java 56 | Loaded 190 type converters
+2018-04-11 20:08:52,568 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:08:52,593 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://marshalEmployeeJson
+2018-04-11 20:08:52,594 | INFO | DefaultCamelContext.java 3693 | Route: route2 started and consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:08:52,595 | INFO | DefaultCamelContext.java 2947 | Total 2 routes, of which 2 are started.
+2018-04-11 20:08:52,598 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.154 seconds
+2018-04-11 20:08:52,611 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: <?xml version='1.0' encoding='UTF-8'?><employee><id>123</id><name>dilip</name><joinDate>12JAN2017</joinDate></employee>]
+2018-04-11 20:08:52,660 | INFO | XMLSerializer.java 736 | Using default type string
+2018-04-11 20:08:52,688 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: byte[], Body: {"id":"123","name":"dilip","joinDate":"12JAN2017"}]
+2018-04-11 20:08:52,688 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2018-04-11 20:08:52,689 | INFO | CamelTestSupport.java 374 | Testing done: marshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:08:52,689 | INFO | CamelTestSupport.java 375 | Took: 0.089 seconds (89 millis)
+2018-04-11 20:08:52,690 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2018-04-11 20:08:52,693 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2018-04-11 20:08:52,693 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 2 routes (timeout 10 seconds)
+2018-04-11 20:08:52,697 | INFO | DefaultShutdownStrategy.java 669 | Route: route2 shutdown complete, was consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:08:52,697 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://marshalEmployeeJson
+2018-04-11 20:08:52,697 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 2 routes completed in 0 seconds
+2018-04-11 20:08:52,706 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.266 seconds
+2018-04-11 20:08:52,706 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.013 seconds
+2018-04-11 20:09:05,941 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2018-04-11 20:09:05,943 | INFO | CamelTestSupport.java 228 | Testing: marshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:09:05,944 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2018-04-11 20:09:06,351 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2018-04-11 20:09:06,352 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2018-04-11 20:09:06,401 | INFO | DefaultTypeConverter.java 56 | Loaded 190 type converters
+2018-04-11 20:09:06,491 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:09:06,516 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://marshalEmployeeJson
+2018-04-11 20:09:06,516 | INFO | DefaultCamelContext.java 3693 | Route: route2 started and consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:09:06,517 | INFO | DefaultCamelContext.java 2947 | Total 2 routes, of which 2 are started.
+2018-04-11 20:09:06,519 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.167 seconds
+2018-04-11 20:09:06,528 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: <?xml version='1.0' encoding='UTF-8'?><employee><id>123</id><name>dilip</name><joinDate>12JAN2017</joinDate></employee>]
+2018-04-11 20:09:06,576 | INFO | XMLSerializer.java 736 | Using default type string
+2018-04-11 20:09:06,604 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: byte[], Body: {"id":"123","name":"dilip","joinDate":"12JAN2017"}]
+2018-04-11 20:09:06,605 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2018-04-11 20:09:06,605 | INFO | CamelTestSupport.java 374 | Testing done: marshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:09:06,606 | INFO | CamelTestSupport.java 375 | Took: 0.086 seconds (86 millis)
+2018-04-11 20:09:06,607 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2018-04-11 20:09:06,610 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2018-04-11 20:09:06,611 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 2 routes (timeout 10 seconds)
+2018-04-11 20:09:06,614 | INFO | DefaultShutdownStrategy.java 669 | Route: route2 shutdown complete, was consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:09:06,614 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://marshalEmployeeJson
+2018-04-11 20:09:06,614 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 2 routes completed in 0 seconds
+2018-04-11 20:09:06,624 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.273 seconds
+2018-04-11 20:09:06,624 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.013 seconds
+2018-04-11 20:09:19,959 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2018-04-11 20:09:19,961 | INFO | CamelTestSupport.java 228 | Testing: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:09:19,961 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2018-04-11 20:09:20,390 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2018-04-11 20:09:20,391 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2018-04-11 20:09:20,439 | INFO | DefaultTypeConverter.java 56 | Loaded 190 type converters
+2018-04-11 20:09:20,525 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:09:20,553 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://marshalEmployeeJson
+2018-04-11 20:09:20,554 | INFO | DefaultCamelContext.java 3693 | Route: route2 started and consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:09:20,555 | INFO | DefaultCamelContext.java 2947 | Total 2 routes, of which 2 are started.
+2018-04-11 20:09:20,558 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.164 seconds
+2018-04-11 20:09:20,572 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: {'id':'123',"name":"dilip","joinDate":"12JAN2017"}]
+2018-04-11 20:09:20,617 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: <?xml version="1.0" encoding="UTF-8"?><employee><id>123</id><joinDate>12JAN2017</joinDate><name>dilip</name></employee>]
+2018-04-11 20:09:20,618 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2018-04-11 20:09:20,618 | INFO | CamelTestSupport.java 374 | Testing done: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:09:20,618 | INFO | CamelTestSupport.java 375 | Took: 0.059 seconds (59 millis)
+2018-04-11 20:09:20,619 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2018-04-11 20:09:20,622 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2018-04-11 20:09:20,623 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 2 routes (timeout 10 seconds)
+2018-04-11 20:09:20,626 | INFO | DefaultShutdownStrategy.java 669 | Route: route2 shutdown complete, was consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:09:20,626 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://marshalEmployeeJson
+2018-04-11 20:09:20,626 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 2 routes completed in 0 seconds
+2018-04-11 20:09:20,635 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.245 seconds
+2018-04-11 20:09:20,635 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.013 seconds
+2018-04-11 20:10:29,687 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2018-04-11 20:10:29,690 | INFO | CamelTestSupport.java 228 | Testing: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:10:29,691 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2018-04-11 20:10:30,124 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2018-04-11 20:10:30,125 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2018-04-11 20:10:30,161 | INFO | DefaultTypeConverter.java 56 | Loaded 190 type converters
+2018-04-11 20:10:30,243 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:10:30,270 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://marshalEmployeeJson
+2018-04-11 20:10:30,271 | INFO | DefaultCamelContext.java 3693 | Route: route2 started and consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:10:30,272 | INFO | DefaultCamelContext.java 2947 | Total 2 routes, of which 2 are started.
+2018-04-11 20:10:30,274 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.148 seconds
+2018-04-11 20:10:30,284 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: {"id":"123","name":"dilip","joinDate":"12JAN2017"}]
+2018-04-11 20:10:30,326 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: <?xml version="1.0" encoding="UTF-8"?><employee><id>123</id><joinDate>12JAN2017</joinDate><name>dilip</name></employee>]
+2018-04-11 20:10:30,327 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2018-04-11 20:10:30,327 | INFO | CamelTestSupport.java 374 | Testing done: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:10:30,327 | INFO | CamelTestSupport.java 375 | Took: 0.052 seconds (52 millis)
+2018-04-11 20:10:30,329 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2018-04-11 20:10:30,334 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2018-04-11 20:10:30,334 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 2 routes (timeout 10 seconds)
+2018-04-11 20:10:30,338 | INFO | DefaultShutdownStrategy.java 669 | Route: route2 shutdown complete, was consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:10:30,338 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://marshalEmployeeJson
+2018-04-11 20:10:30,338 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 2 routes completed in 0 seconds
+2018-04-11 20:10:30,350 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.226 seconds
+2018-04-11 20:10:30,350 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.016 seconds
+2018-04-11 20:12:26,872 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2018-04-11 20:12:26,875 | INFO | CamelTestSupport.java 228 | Testing: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:12:26,875 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2018-04-11 20:12:27,290 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2018-04-11 20:12:27,291 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2018-04-11 20:12:27,330 | INFO | DefaultTypeConverter.java 56 | Loaded 190 type converters
+2018-04-11 20:12:27,413 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:12:27,442 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://marshalEmployeeJson
+2018-04-11 20:12:27,443 | INFO | DefaultCamelContext.java 3693 | Route: route2 started and consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:12:27,444 | INFO | DefaultCamelContext.java 2947 | Total 2 routes, of which 2 are started.
+2018-04-11 20:12:27,447 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.153 seconds
+2018-04-11 20:12:27,461 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: {"id":"123","name":"dilip","joinDate":"12JAN2017"}]
+2018-04-11 20:12:27,512 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: <?xml version="1.0" encoding="UTF-8"?><employee><id>123</id><joinDate>12JAN2017</joinDate><name>dilip</name></employee>]
+2018-04-11 20:12:27,512 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2018-04-11 20:12:27,513 | INFO | CamelTestSupport.java 374 | Testing done: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:12:27,513 | INFO | CamelTestSupport.java 375 | Took: 0.065 seconds (65 millis)
+2018-04-11 20:12:27,514 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2018-04-11 20:12:27,517 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2018-04-11 20:12:27,517 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 2 routes (timeout 10 seconds)
+2018-04-11 20:12:27,521 | INFO | DefaultShutdownStrategy.java 669 | Route: route2 shutdown complete, was consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:12:27,521 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://marshalEmployeeJson
+2018-04-11 20:12:27,521 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 2 routes completed in 0 seconds
+2018-04-11 20:12:27,533 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.243 seconds
+2018-04-11 20:12:27,533 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.016 seconds
+2018-04-11 20:12:58,553 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2018-04-11 20:12:58,555 | INFO | CamelTestSupport.java 228 | Testing: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:12:58,555 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2018-04-11 20:12:58,945 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2018-04-11 20:12:58,947 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2018-04-11 20:12:58,997 | INFO | DefaultTypeConverter.java 56 | Loaded 190 type converters
+2018-04-11 20:12:59,084 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:12:59,102 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://marshalEmployeeJson
+2018-04-11 20:12:59,103 | INFO | DefaultCamelContext.java 3693 | Route: route2 started and consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:12:59,103 | INFO | DefaultCamelContext.java 2947 | Total 2 routes, of which 2 are started.
+2018-04-11 20:12:59,105 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.158 seconds
+2018-04-11 20:12:59,117 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: {"id":"123","name":"dilip","joinDate":"12JAN2017"}]
+2018-04-11 20:12:59,170 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: <?xml version="1.0" encoding="UTF-8"?><employee><id>123</id><joinDate>12JAN2017</joinDate><name>dilip</name></employee>]
+2018-04-11 20:12:59,171 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2018-04-11 20:12:59,171 | INFO | CamelTestSupport.java 374 | Testing done: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:12:59,171 | INFO | CamelTestSupport.java 375 | Took: 0.065 seconds (65 millis)
+2018-04-11 20:12:59,172 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2018-04-11 20:12:59,175 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2018-04-11 20:12:59,176 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 2 routes (timeout 10 seconds)
+2018-04-11 20:12:59,181 | INFO | DefaultShutdownStrategy.java 669 | Route: route2 shutdown complete, was consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:12:59,181 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://marshalEmployeeJson
+2018-04-11 20:12:59,181 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 2 routes completed in 0 seconds
+2018-04-11 20:12:59,195 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.250 seconds
+2018-04-11 20:12:59,195 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.020 seconds
+2018-04-11 20:13:12,542 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2018-04-11 20:13:12,546 | INFO | CamelTestSupport.java 228 | Testing: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:13:12,547 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2018-04-11 20:13:12,941 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2018-04-11 20:13:12,942 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2018-04-11 20:13:12,978 | INFO | DefaultTypeConverter.java 56 | Loaded 190 type converters
+2018-04-11 20:13:13,064 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:13:13,090 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://marshalEmployeeJson
+2018-04-11 20:13:13,090 | INFO | DefaultCamelContext.java 3693 | Route: route2 started and consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:13:13,091 | INFO | DefaultCamelContext.java 2947 | Total 2 routes, of which 2 are started.
+2018-04-11 20:13:13,094 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.150 seconds
+2018-04-11 20:13:13,109 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: {"id":"123","name":"dilip","joinDate":"12JAN2017"}]
+2018-04-11 20:13:13,166 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: <?xml version="1.0" encoding="UTF-8"?><employee><id>123</id><joinDate>12JAN2017</joinDate><name>dilip</name></employee>]
+2018-04-11 20:13:13,167 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2018-04-11 20:13:13,167 | INFO | CamelTestSupport.java 374 | Testing done: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:13:13,167 | INFO | CamelTestSupport.java 375 | Took: 0.072 seconds (72 millis)
+2018-04-11 20:13:13,168 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2018-04-11 20:13:13,171 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2018-04-11 20:13:13,172 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 2 routes (timeout 10 seconds)
+2018-04-11 20:13:13,175 | INFO | DefaultShutdownStrategy.java 669 | Route: route2 shutdown complete, was consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:13:13,175 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://marshalEmployeeJson
+2018-04-11 20:13:13,175 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 2 routes completed in 0 seconds
+2018-04-11 20:13:13,184 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.243 seconds
+2018-04-11 20:13:13,185 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.013 seconds
+2018-04-11 20:13:55,535 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2018-04-11 20:13:55,537 | INFO | CamelTestSupport.java 228 | Testing: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:13:55,537 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2018-04-11 20:13:55,929 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2018-04-11 20:13:55,930 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2018-04-11 20:13:55,967 | INFO | DefaultTypeConverter.java 56 | Loaded 190 type converters
+2018-04-11 20:13:56,041 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:13:56,064 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://marshalEmployeeJson
+2018-04-11 20:13:56,065 | INFO | DefaultCamelContext.java 3693 | Route: route2 started and consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:13:56,065 | INFO | DefaultCamelContext.java 2947 | Total 2 routes, of which 2 are started.
+2018-04-11 20:13:56,068 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.137 seconds
+2018-04-11 20:13:56,082 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: {"id":"123","name":"dilip","joinDate":"12JAN2017"}]
+2018-04-11 20:13:56,150 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: <?xml version="1.0" encoding="UTF-8"?><employee><id>123</id><joinDate>12JAN2017</joinDate><name>dilip</name></employee>]
+2018-04-11 20:13:56,151 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2018-04-11 20:13:56,151 | INFO | CamelTestSupport.java 374 | Testing done: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:13:56,152 | INFO | CamelTestSupport.java 375 | Took: 0.082 seconds (82 millis)
+2018-04-11 20:13:56,153 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2018-04-11 20:13:56,158 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2018-04-11 20:13:56,159 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 2 routes (timeout 10 seconds)
+2018-04-11 20:13:56,164 | INFO | DefaultShutdownStrategy.java 669 | Route: route2 shutdown complete, was consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:13:56,164 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://marshalEmployeeJson
+2018-04-11 20:13:56,164 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 2 routes completed in 0 seconds
+2018-04-11 20:13:56,174 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.246 seconds
+2018-04-11 20:13:56,174 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.016 seconds
+2018-04-11 20:14:21,487 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2018-04-11 20:14:21,489 | INFO | CamelTestSupport.java 228 | Testing: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:14:21,489 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2018-04-11 20:14:21,902 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2018-04-11 20:14:21,904 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2018-04-11 20:14:21,950 | INFO | DefaultTypeConverter.java 56 | Loaded 190 type converters
+2018-04-11 20:14:22,040 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:14:22,059 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://marshalEmployeeJson
+2018-04-11 20:14:22,059 | INFO | DefaultCamelContext.java 3693 | Route: route2 started and consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:14:22,059 | INFO | DefaultCamelContext.java 2947 | Total 2 routes, of which 2 are started.
+2018-04-11 20:14:22,062 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.157 seconds
+2018-04-11 20:14:22,070 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: {"id":"123","name":"dilip","joinDate":"12JAN2017"}]
+2018-04-11 20:14:22,112 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: <?xml version="1.0" encoding="UTF-8"?><employee><id>123</id><joinDate>12JAN2017</joinDate><name>dilip</name></employee>]
+2018-04-11 20:14:22,112 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2018-04-11 20:14:22,112 | INFO | CamelTestSupport.java 374 | Testing done: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:14:22,113 | INFO | CamelTestSupport.java 375 | Took: 0.050 seconds (50 millis)
+2018-04-11 20:14:22,113 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2018-04-11 20:14:22,117 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2018-04-11 20:14:22,117 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 2 routes (timeout 10 seconds)
+2018-04-11 20:14:22,120 | INFO | DefaultShutdownStrategy.java 669 | Route: route2 shutdown complete, was consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:14:22,120 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://marshalEmployeeJson
+2018-04-11 20:14:22,121 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 2 routes completed in 0 seconds
+2018-04-11 20:14:22,129 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.227 seconds
+2018-04-11 20:14:22,130 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.012 seconds
+2018-04-11 20:14:59,060 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2018-04-11 20:14:59,062 | INFO | CamelTestSupport.java 228 | Testing: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:14:59,062 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2018-04-11 20:14:59,486 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2018-04-11 20:14:59,487 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2018-04-11 20:14:59,533 | INFO | DefaultTypeConverter.java 56 | Loaded 190 type converters
+2018-04-11 20:14:59,617 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:14:59,635 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://marshalEmployeeJson
+2018-04-11 20:14:59,636 | INFO | DefaultCamelContext.java 3693 | Route: route2 started and consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:14:59,636 | INFO | DefaultCamelContext.java 2947 | Total 2 routes, of which 2 are started.
+2018-04-11 20:14:59,638 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.151 seconds
+2018-04-11 20:14:59,647 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: {"id":"123","name":"dilip","joinDate":"12JAN2017"}]
+2018-04-11 20:14:59,685 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: <?xml version="1.0" encoding="UTF-8"?><employee><id>123</id><joinDate>12JAN2017</joinDate><name>dilip</name></employee>]
+2018-04-11 20:14:59,685 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2018-04-11 20:14:59,686 | INFO | CamelTestSupport.java 374 | Testing done: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:14:59,686 | INFO | CamelTestSupport.java 375 | Took: 0.047 seconds (47 millis)
+2018-04-11 20:14:59,686 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2018-04-11 20:14:59,690 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2018-04-11 20:14:59,690 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 2 routes (timeout 10 seconds)
+2018-04-11 20:14:59,693 | INFO | DefaultShutdownStrategy.java 669 | Route: route2 shutdown complete, was consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:14:59,694 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://marshalEmployeeJson
+2018-04-11 20:14:59,694 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 2 routes completed in 0 seconds
+2018-04-11 20:14:59,703 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.218 seconds
+2018-04-11 20:14:59,703 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.013 seconds
+2018-04-11 20:15:35,557 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2018-04-11 20:15:35,560 | INFO | CamelTestSupport.java 228 | Testing: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:15:35,560 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2018-04-11 20:15:35,974 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2018-04-11 20:15:35,975 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2018-04-11 20:15:36,015 | INFO | DefaultTypeConverter.java 56 | Loaded 190 type converters
+2018-04-11 20:15:36,099 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:15:36,126 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://marshalEmployeeJson
+2018-04-11 20:15:36,127 | INFO | DefaultCamelContext.java 3693 | Route: route2 started and consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:15:36,128 | INFO | DefaultCamelContext.java 2947 | Total 2 routes, of which 2 are started.
+2018-04-11 20:15:36,131 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.155 seconds
+2018-04-11 20:15:36,145 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: {"id":"123","name":"dilip","joinDate":"12JAN2017"}]
+2018-04-11 20:15:36,196 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: <?xml version="1.0" encoding="UTF-8"?><employee><id>123</id><joinDate>12JAN2017</joinDate><name>dilip</name></employee>]
+2018-04-11 20:15:36,197 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2018-04-11 20:15:36,197 | INFO | CamelTestSupport.java 374 | Testing done: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:15:36,198 | INFO | CamelTestSupport.java 375 | Took: 0.065 seconds (65 millis)
+2018-04-11 20:15:36,199 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2018-04-11 20:15:36,202 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2018-04-11 20:15:36,202 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 2 routes (timeout 10 seconds)
+2018-04-11 20:15:36,206 | INFO | DefaultShutdownStrategy.java 669 | Route: route2 shutdown complete, was consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:15:36,206 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://marshalEmployeeJson
+2018-04-11 20:15:36,206 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 2 routes completed in 0 seconds
+2018-04-11 20:15:36,216 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.243 seconds
+2018-04-11 20:15:36,217 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.014 seconds
+2018-04-11 20:16:03,631 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2018-04-11 20:16:03,633 | INFO | CamelTestSupport.java 228 | Testing: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:16:03,633 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2018-04-11 20:16:04,187 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2018-04-11 20:16:04,188 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2018-04-11 20:16:04,224 | INFO | DefaultTypeConverter.java 56 | Loaded 190 type converters
+2018-04-11 20:16:04,287 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:16:04,306 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://marshalEmployeeJson
+2018-04-11 20:16:04,306 | INFO | DefaultCamelContext.java 3693 | Route: route2 started and consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:16:04,307 | INFO | DefaultCamelContext.java 2947 | Total 2 routes, of which 2 are started.
+2018-04-11 20:16:04,309 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.121 seconds
+2018-04-11 20:16:04,320 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: {"id":"123","name":"dilip","joinDate":"12JAN2017"}]
+2018-04-11 20:16:04,364 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: <?xml version="1.0" encoding="UTF-8"?><employee><id>123</id><joinDate>12JAN2017</joinDate><name>dilip</name></employee>]
+2018-04-11 20:16:04,364 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2018-04-11 20:16:04,365 | INFO | CamelTestSupport.java 374 | Testing done: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:16:04,365 | INFO | CamelTestSupport.java 375 | Took: 0.054 seconds (54 millis)
+2018-04-11 20:16:04,366 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2018-04-11 20:16:04,369 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2018-04-11 20:16:04,369 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 2 routes (timeout 10 seconds)
+2018-04-11 20:16:04,373 | INFO | DefaultShutdownStrategy.java 669 | Route: route2 shutdown complete, was consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:16:04,373 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://marshalEmployeeJson
+2018-04-11 20:16:04,373 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 2 routes completed in 0 seconds
+2018-04-11 20:16:04,382 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.196 seconds
+2018-04-11 20:16:04,383 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.013 seconds
+2018-04-11 20:17:33,209 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2018-04-11 20:17:33,212 | INFO | CamelTestSupport.java 228 | Testing: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:17:33,212 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2018-04-11 20:17:33,638 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2018-04-11 20:17:33,639 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2018-04-11 20:17:33,676 | INFO | DefaultTypeConverter.java 56 | Loaded 190 type converters
+2018-04-11 20:17:33,760 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:17:33,787 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://marshalEmployeeJson
+2018-04-11 20:17:33,788 | INFO | DefaultCamelContext.java 3693 | Route: route2 started and consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:17:33,788 | INFO | DefaultCamelContext.java 2947 | Total 2 routes, of which 2 are started.
+2018-04-11 20:17:33,792 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.150 seconds
+2018-04-11 20:17:33,803 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: {"id":"123","name":"dilip","joinDate":"12JAN2017"}]
+2018-04-11 20:17:33,861 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: <?xml version="1.0" encoding="UTF-8"?><employee><id>123</id><joinDate>12JAN2017</joinDate><name>dilip</name></employee>]
+2018-04-11 20:17:33,862 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2018-04-11 20:17:33,862 | INFO | CamelTestSupport.java 374 | Testing done: unMarshalEmployee2JsonXml(com.udemy.camel.json.XML2JsonRouteTest)
+2018-04-11 20:17:33,863 | INFO | CamelTestSupport.java 375 | Took: 0.069 seconds (69 millis)
+2018-04-11 20:17:33,864 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2018-04-11 20:17:33,868 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2018-04-11 20:17:33,869 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 2 routes (timeout 10 seconds)
+2018-04-11 20:17:33,875 | INFO | DefaultShutdownStrategy.java 669 | Route: route2 shutdown complete, was consuming from: direct://unMarshalEmployeeJson
+2018-04-11 20:17:33,876 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://marshalEmployeeJson
+2018-04-11 20:17:33,876 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 2 routes completed in 0 seconds
+2018-04-11 20:17:33,886 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.248 seconds
+2018-04-11 20:17:33,886 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.018 seconds
+2018-04-11 20:45:22,820 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-04-11 20:45:22,823 | INFO | CamelTestSupport.java 244 | Testing: marshalUsingGson(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:45:22,823 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-04-11 20:45:23,163 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-04-11 20:45:23,164 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-04-11 20:45:23,207 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-04-11 20:45:23,297 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:45:23,334 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://gsonRoute
+2018-04-11 20:45:23,335 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-04-11 20:45:23,338 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.172 seconds
+2018-04-11 20:45:23,353 | INFO | CamelLogger.java 159 | Before Marshaling is : Employee{id='1', name='Elvis', joinDate='12Jan2017'}
+2018-04-11 20:45:23,362 | INFO | CamelLogger.java 159 | Marshaled Object is : {"id":"1","name":"Elvis","joinDate":"12Jan2017"}
+2018-04-11 20:45:23,363 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-04-11 20:45:23,363 | INFO | CamelTestSupport.java 390 | Testing done: marshalUsingGson(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:45:23,364 | INFO | CamelTestSupport.java 391 | Took: 0.024 seconds (24 millis)
+2018-04-11 20:45:23,364 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-04-11 20:45:23,369 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-04-11 20:45:23,370 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-04-11 20:45:23,375 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://gsonRoute
+2018-04-11 20:45:23,375 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-04-11 20:45:23,391 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.228 seconds
+2018-04-11 20:45:23,393 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.023 seconds
+2018-04-11 20:46:20,323 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-04-11 20:46:20,326 | INFO | CamelTestSupport.java 244 | Testing: marshalUsingGson(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:46:20,326 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-04-11 20:46:20,754 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-04-11 20:46:20,756 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-04-11 20:46:20,798 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-04-11 20:46:20,864 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:46:20,892 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://gsonRoute
+2018-04-11 20:46:20,892 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-04-11 20:46:20,894 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.138 seconds
+2018-04-11 20:46:20,915 | INFO | CamelLogger.java 159 | Before Marshaling is : Employee{id='1', name='Elvis', joinDate='12Jan2017'}
+2018-04-11 20:46:20,921 | INFO | CamelLogger.java 159 | Marshaled Object is : {"id":"1","name":"Elvis","joinDate":"12Jan2017"}
+2018-04-11 20:46:20,923 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-04-11 20:46:20,923 | INFO | CamelTestSupport.java 390 | Testing done: marshalUsingGson(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:46:20,923 | INFO | CamelTestSupport.java 391 | Took: 0.028 seconds (28 millis)
+2018-04-11 20:46:20,923 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-04-11 20:46:20,930 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-04-11 20:46:20,931 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-04-11 20:46:20,936 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://gsonRoute
+2018-04-11 20:46:20,936 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-04-11 20:46:20,946 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.192 seconds
+2018-04-11 20:46:20,946 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.016 seconds
+2018-04-11 20:46:41,990 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-04-11 20:46:41,993 | INFO | CamelTestSupport.java 244 | Testing: marshalUsingGson(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:46:41,993 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-04-11 20:46:42,272 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-04-11 20:46:42,273 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-04-11 20:46:42,312 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-04-11 20:46:42,402 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:46:42,439 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://gsonRoute
+2018-04-11 20:46:42,440 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-04-11 20:46:42,443 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.169 seconds
+2018-04-11 20:46:42,453 | INFO | CamelLogger.java 159 | Before Marshaling is : Employee{id='1', name='Elvis', joinDate='12Jan2017'}
+2018-04-11 20:46:42,461 | INFO | CamelLogger.java 159 | Marshaled Object is : {"id":"1","name":"Elvis","joinDate":"12Jan2017"}
+2018-04-11 20:46:42,462 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-04-11 20:46:42,462 | INFO | CamelTestSupport.java 390 | Testing done: marshalUsingGson(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:46:42,463 | INFO | CamelTestSupport.java 391 | Took: 0.018 seconds (18 millis)
+2018-04-11 20:46:42,463 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-04-11 20:46:42,467 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-04-11 20:46:42,468 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-04-11 20:46:42,474 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://gsonRoute
+2018-04-11 20:46:42,474 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-04-11 20:46:42,492 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.221 seconds
+2018-04-11 20:46:42,492 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.025 seconds
+2018-04-11 20:50:25,193 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-04-11 20:50:25,195 | INFO | CamelTestSupport.java 244 | Testing: marshalGsonWithMockOutput(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:50:25,195 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-04-11 20:50:25,477 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-04-11 20:50:25,478 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-04-11 20:50:25,520 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-04-11 20:50:25,616 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:50:25,644 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://gsonRoute
+2018-04-11 20:50:25,645 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-04-11 20:50:25,647 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.169 seconds
+2018-04-11 20:50:25,655 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-04-11 20:50:25,655 | INFO | CamelTestSupport.java 390 | Testing done: marshalGsonWithMockOutput(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:50:25,655 | INFO | CamelTestSupport.java 391 | Took: 0.008 seconds (8 millis)
+2018-04-11 20:50:25,655 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-04-11 20:50:25,658 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-04-11 20:50:25,658 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-04-11 20:50:25,663 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://gsonRoute
+2018-04-11 20:50:25,663 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-04-11 20:50:25,676 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.200 seconds
+2018-04-11 20:50:25,676 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.018 seconds
+2018-04-11 20:51:47,090 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-04-11 20:51:47,092 | INFO | CamelTestSupport.java 244 | Testing: marshalGsonWithMockOutput(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:51:47,092 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-04-11 20:51:47,358 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-04-11 20:51:47,359 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-04-11 20:51:47,401 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-04-11 20:51:47,492 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:51:47,521 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://gsonRoute
+2018-04-11 20:51:47,521 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-04-11 20:51:47,523 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.164 seconds
+2018-04-11 20:51:47,530 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-04-11 20:51:47,530 | INFO | CamelTestSupport.java 390 | Testing done: marshalGsonWithMockOutput(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:51:47,530 | INFO | CamelTestSupport.java 391 | Took: 0.007 seconds (7 millis)
+2018-04-11 20:51:47,530 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-04-11 20:51:47,532 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-04-11 20:51:47,533 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-04-11 20:51:47,538 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://gsonRoute
+2018-04-11 20:51:47,538 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-04-11 20:51:47,550 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.193 seconds
+2018-04-11 20:51:47,550 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.018 seconds
+2018-04-11 20:52:26,713 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-04-11 20:52:26,714 | INFO | CamelTestSupport.java 244 | Testing: marshalGsonWithMockOutput(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:52:26,715 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-04-11 20:52:27,065 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-04-11 20:52:27,066 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-04-11 20:52:27,112 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-04-11 20:52:27,207 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:52:27,244 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://gsonRoute
+2018-04-11 20:52:27,244 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-04-11 20:52:27,247 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.179 seconds
+2018-04-11 20:52:27,255 | INFO | CamelLogger.java 159 | Before Marshaling is : Employee{id='1', name='Elvis', joinDate='12Jan2017'}
+2018-04-11 20:52:27,261 | INFO | CamelLogger.java 159 | Marshaled Object is : "Employee{id\u003d\u00271\u0027, name\u003d\u0027Elvis\u0027, joinDate\u003d\u002712Jan2017\u0027}"
+2018-04-11 20:52:27,262 | INFO | MockEndpoint.java 383 | Asserting: mock://output is satisfied
+2018-04-11 20:52:27,263 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-04-11 20:52:27,263 | INFO | CamelTestSupport.java 390 | Testing done: marshalGsonWithMockOutput(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:52:27,263 | INFO | CamelTestSupport.java 391 | Took: 0.016 seconds (16 millis)
+2018-04-11 20:52:27,264 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-04-11 20:52:27,267 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-04-11 20:52:27,268 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-04-11 20:52:27,274 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://gsonRoute
+2018-04-11 20:52:27,274 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-04-11 20:52:27,285 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.220 seconds
+2018-04-11 20:52:27,286 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.019 seconds
+2018-04-11 20:52:57,541 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-04-11 20:52:57,543 | INFO | CamelTestSupport.java 244 | Testing: marshalGsonWithMockOutput(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:52:57,543 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-04-11 20:52:57,822 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-04-11 20:52:57,823 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-04-11 20:52:57,871 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-04-11 20:52:57,969 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:52:58,008 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://gsonRoute
+2018-04-11 20:52:58,009 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-04-11 20:52:58,012 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.188 seconds
+2018-04-11 20:52:58,023 | INFO | CamelLogger.java 159 | Before Marshaling is : Employee{id='1', name='Elvis', joinDate='12Jan2017'}
+2018-04-11 20:52:58,033 | INFO | CamelLogger.java 159 | Marshaled Object is : "Employee{id\u003d\u00271\u0027, name\u003d\u0027Elvis\u0027, joinDate\u003d\u002712Jan2017\u0027}"
+2018-04-11 20:52:58,034 | INFO | MockEndpoint.java 383 | Asserting: mock://output is satisfied
+2018-04-11 20:52:58,035 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-04-11 20:52:58,035 | INFO | CamelTestSupport.java 390 | Testing done: marshalGsonWithMockOutput(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:52:58,035 | INFO | CamelTestSupport.java 391 | Took: 0.023 seconds (23 millis)
+2018-04-11 20:52:58,036 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-04-11 20:52:58,040 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-04-11 20:52:58,041 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-04-11 20:52:58,045 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://gsonRoute
+2018-04-11 20:52:58,045 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-04-11 20:52:58,058 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.237 seconds
+2018-04-11 20:52:58,059 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.019 seconds
+2018-04-11 20:53:36,529 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-04-11 20:53:36,531 | INFO | CamelTestSupport.java 244 | Testing: marshalGsonWithMockOutput(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:53:36,531 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-04-11 20:53:36,810 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-04-11 20:53:36,811 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-04-11 20:53:36,853 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-04-11 20:53:36,958 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:53:36,983 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://gsonRoute
+2018-04-11 20:53:36,983 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-04-11 20:53:36,986 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.173 seconds
+2018-04-11 20:53:36,995 | INFO | CamelLogger.java 159 | Before Marshaling is : Employee{id='1', name='Elvis', joinDate='12Jan2017'}
+2018-04-11 20:53:37,002 | INFO | CamelLogger.java 159 | Marshaled Object is : "Employee{id\u003d\u00271\u0027, name\u003d\u0027Elvis\u0027, joinDate\u003d\u002712Jan2017\u0027}"
+2018-04-11 20:53:37,003 | INFO | MockEndpoint.java 383 | Asserting: mock://output is satisfied
+2018-04-11 20:53:37,003 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-04-11 20:53:37,003 | INFO | CamelTestSupport.java 390 | Testing done: marshalGsonWithMockOutput(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:53:37,003 | INFO | CamelTestSupport.java 391 | Took: 0.016 seconds (16 millis)
+2018-04-11 20:53:37,004 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-04-11 20:53:37,008 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-04-11 20:53:37,009 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-04-11 20:53:37,013 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://gsonRoute
+2018-04-11 20:53:37,013 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-04-11 20:53:37,029 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.219 seconds
+2018-04-11 20:53:37,030 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.022 seconds
+2018-04-11 20:53:51,366 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-04-11 20:53:51,368 | INFO | CamelTestSupport.java 244 | Testing: marshalGsonWithMockOutput(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:53:51,368 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-04-11 20:53:51,653 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-04-11 20:53:51,654 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-04-11 20:53:51,695 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-04-11 20:53:51,783 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:53:51,808 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://gsonRoute
+2018-04-11 20:53:51,808 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-04-11 20:53:51,810 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.155 seconds
+2018-04-11 20:53:51,811 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-04-11 20:53:51,811 | INFO | CamelTestSupport.java 390 | Testing done: marshalGsonWithMockOutput(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:53:51,812 | INFO | CamelTestSupport.java 391 | Took: 0.000 seconds (0 millis)
+2018-04-11 20:53:51,812 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-04-11 20:53:51,812 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-04-11 20:53:51,813 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-04-11 20:53:51,817 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://gsonRoute
+2018-04-11 20:53:51,818 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-04-11 20:53:51,831 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.178 seconds
+2018-04-11 20:53:51,832 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.020 seconds
+2018-04-11 20:54:11,951 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-04-11 20:54:11,953 | INFO | CamelTestSupport.java 244 | Testing: marshalUsingGson(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:54:11,953 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-04-11 20:54:12,275 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-04-11 20:54:12,276 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-04-11 20:54:12,325 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-04-11 20:54:12,428 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:54:12,458 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://gsonRoute
+2018-04-11 20:54:12,459 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-04-11 20:54:12,461 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.184 seconds
+2018-04-11 20:54:12,474 | INFO | CamelLogger.java 159 | Before Marshaling is : Employee{id='1', name='Elvis', joinDate='12Jan2017'}
+2018-04-11 20:54:12,482 | INFO | CamelLogger.java 159 | Marshaled Object is : {"id":"1","name":"Elvis","joinDate":"12Jan2017"}
+2018-04-11 20:54:12,484 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-04-11 20:54:12,484 | INFO | CamelTestSupport.java 390 | Testing done: marshalUsingGson(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:54:12,484 | INFO | CamelTestSupport.java 391 | Took: 0.022 seconds (22 millis)
+2018-04-11 20:54:12,485 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-04-11 20:54:12,489 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-04-11 20:54:12,490 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-04-11 20:54:12,494 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://gsonRoute
+2018-04-11 20:54:12,494 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-04-11 20:54:12,505 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.230 seconds
+2018-04-11 20:54:12,506 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.017 seconds
+2018-04-11 20:54:12,507 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-04-11 20:54:12,507 | INFO | CamelTestSupport.java 244 | Testing: marshalGsonWithMockOutput(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:54:12,507 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-04-11 20:54:12,510 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-2) is starting
+2018-04-11 20:54:12,510 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-04-11 20:54:12,514 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-04-11 20:54:12,526 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:54:12,527 | INFO | DefaultCamelContext.java 4026 | Route: route2 started and consuming from: direct://gsonRoute
+2018-04-11 20:54:12,528 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-04-11 20:54:12,528 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-2) started in 0.019 seconds
+2018-04-11 20:54:12,529 | INFO | CamelLogger.java 159 | Before Marshaling is : blablabla
+2018-04-11 20:54:12,529 | INFO | CamelLogger.java 159 | Marshaled Object is : "blablabla"
+2018-04-11 20:54:12,529 | INFO | MockEndpoint.java 383 | Asserting: mock://output is satisfied
+2018-04-11 20:54:12,530 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-04-11 20:54:12,530 | INFO | CamelTestSupport.java 390 | Testing done: marshalGsonWithMockOutput(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:54:12,530 | INFO | CamelTestSupport.java 391 | Took: 0.002 seconds (2 millis)
+2018-04-11 20:54:12,530 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-04-11 20:54:12,530 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-2) is shutting down
+2018-04-11 20:54:12,530 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-04-11 20:54:12,531 | INFO | DefaultShutdownStrategy.java 671 | Route: route2 shutdown complete, was consuming from: direct://gsonRoute
+2018-04-11 20:54:12,532 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-04-11 20:54:12,533 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-2) uptime 0.024 seconds
+2018-04-11 20:54:12,533 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-2) is shutdown in 0.003 seconds
+2018-04-11 20:54:33,021 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-04-11 20:54:33,023 | INFO | CamelTestSupport.java 244 | Testing: marshalGsonWithMockOutput(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:54:33,023 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-04-11 20:54:33,430 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-04-11 20:54:33,431 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-04-11 20:54:33,470 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-04-11 20:54:33,562 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:54:33,596 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://gsonRoute
+2018-04-11 20:54:33,596 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-04-11 20:54:33,599 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.167 seconds
+2018-04-11 20:54:33,610 | INFO | CamelLogger.java 159 | Before Marshaling is : Employee{id='1', name='Elvis', joinDate='12Jan2017'}
+2018-04-11 20:54:33,618 | INFO | CamelLogger.java 159 | Marshaled Object is : {"id":"1","name":"Elvis","joinDate":"12Jan2017"}
+2018-04-11 20:54:33,619 | INFO | MockEndpoint.java 383 | Asserting: mock://output is satisfied
+2018-04-11 20:54:33,620 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-04-11 20:54:33,620 | INFO | CamelTestSupport.java 390 | Testing done: marshalGsonWithMockOutput(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:54:33,620 | INFO | CamelTestSupport.java 391 | Took: 0.020 seconds (20 millis)
+2018-04-11 20:54:33,621 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-04-11 20:54:33,624 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-04-11 20:54:33,625 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-04-11 20:54:33,630 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://gsonRoute
+2018-04-11 20:54:33,630 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-04-11 20:54:33,642 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.212 seconds
+2018-04-11 20:54:33,642 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.018 seconds
+2018-04-11 20:54:53,790 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-04-11 20:54:53,795 | INFO | CamelTestSupport.java 244 | Testing: marshalGsonWithMockOutput(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:54:53,795 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-04-11 20:54:54,096 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-04-11 20:54:54,097 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-04-11 20:54:54,135 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-04-11 20:54:54,226 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:54:54,254 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://gsonRoute
+2018-04-11 20:54:54,254 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-04-11 20:54:54,256 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.158 seconds
+2018-04-11 20:54:54,265 | INFO | CamelLogger.java 159 | Before Marshaling is : Employee{id='1', name='Elvis', joinDate='12Jan2017'}
+2018-04-11 20:54:54,271 | INFO | CamelLogger.java 159 | Marshaled Object is : {"id":"1","name":"Elvis","joinDate":"12Jan2017"}
+2018-04-11 20:54:54,272 | INFO | MockEndpoint.java 383 | Asserting: mock://output is satisfied
+2018-04-11 20:54:54,273 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-04-11 20:54:54,273 | INFO | CamelTestSupport.java 390 | Testing done: marshalGsonWithMockOutput(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:54:54,273 | INFO | CamelTestSupport.java 391 | Took: 0.016 seconds (16 millis)
+2018-04-11 20:54:54,274 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-04-11 20:54:54,278 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-04-11 20:54:54,279 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-04-11 20:54:54,284 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://gsonRoute
+2018-04-11 20:54:54,284 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-04-11 20:54:54,297 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.201 seconds
+2018-04-11 20:54:54,298 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.020 seconds
+2018-04-11 20:55:06,691 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-04-11 20:55:06,693 | INFO | CamelTestSupport.java 244 | Testing: marshalGsonWithMockOutput(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:55:06,694 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-04-11 20:55:07,063 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-04-11 20:55:07,064 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-04-11 20:55:07,109 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-04-11 20:55:07,210 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-04-11 20:55:07,247 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://gsonRoute
+2018-04-11 20:55:07,248 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-04-11 20:55:07,250 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.186 seconds
+2018-04-11 20:55:07,261 | INFO | CamelLogger.java 159 | Before Marshaling is : Employee{id='1', name='Elvis', joinDate='12Jan2017'}
+2018-04-11 20:55:07,269 | INFO | CamelLogger.java 159 | Marshaled Object is : {"id":"1","name":"Elvis","joinDate":"12Jan2017"}
+2018-04-11 20:55:07,271 | INFO | MockEndpoint.java 383 | Asserting: mock://output is satisfied
+2018-04-11 20:55:07,271 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-04-11 20:55:07,272 | INFO | CamelTestSupport.java 390 | Testing done: marshalGsonWithMockOutput(com.udemy.camel.gson.MarshalUsingGsonTest)
+2018-04-11 20:55:07,272 | INFO | CamelTestSupport.java 391 | Took: 0.020 seconds (20 millis)
+2018-04-11 20:55:07,273 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-04-11 20:55:07,276 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-04-11 20:55:07,277 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-04-11 20:55:07,281 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://gsonRoute
+2018-04-11 20:55:07,281 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-04-11 20:55:07,294 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.232 seconds
+2018-04-11 20:55:07,294 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.018 seconds
